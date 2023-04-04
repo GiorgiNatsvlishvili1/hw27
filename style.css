@@ -1,0 +1,34 @@
+body {
+    overflow-x: hidden;
+    background-color: #181818
+}
+@media screen and (min-width: 991px) {
+    #none2 {
+        display: none;
+    }
+}
+@media screen and (min-width: 771px) {
+    #none {
+        display: none;
+    }
+    #white1 {
+        padding-left: 50px;
+    }
+    #white2 {
+        padding-right: 50px;
+    }
+}
+@media screen and (max-width: 771px) {
+    #none1 {
+        display: none;
+    }
+    #white1 {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #white2 {
+        padding-top: 30px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}
